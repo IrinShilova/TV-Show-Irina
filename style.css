@@ -1,0 +1,90 @@
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;  
+}
+.episodesroot{
+  background-color: gray;
+  padding-top: 20px;
+}
+.episodesStyle{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+.titleepisodeClass{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 2%;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border: 1.5px solid;
+  border-radius: 10px;
+}
+
+.episodeclass a:link { color: #10291b; text-decoration: none; }
+.episodeclass a:visited { color: #10291b; text-decoration: none; }
+
+
+.imageEpisodeClass{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summaryEpisodeClass{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.episodeclass {
+  background-color: white;
+  /*width:20%;*/
+  margin: 20px;
+  display: block;
+  justify-content: space-between;
+  flex: 1 300px;
+  height: auto;
+  max-width: 20%;
+}
+
+.searchBlock{
+  height: 60px;
+  background-color: antiquewhite;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  padding-left: 20px;
+  width: 95%;
+  font-size: large;
+}
+
+.searchEpisodesInput{
+  margin-top: 10px;
+  height: 30px;
+}
+.selectEpisode{
+  height: 36px;
+  margin-top: 10px;
+}
+
+.selectShow {
+  height: 36px;
+  margin-top: 10px;
+}
+
+
+
+
+
